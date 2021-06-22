@@ -1,0 +1,8 @@
+@import 'styles/commons.scss';
+
+.container {
+  width: 100%;
+  max-width: 30rem;
+  margin: 0 auto;
+  padding: $space-5 $space-3;
+}

@@ -1,0 +1,11 @@
+@import 'styles/commons.scss';
+
+.register-form-wrap {
+  .register-form {
+    margin-top: $space-4;
+
+    .submit-btn {
+      margin-top: $space-4;
+    }
+  }
+}

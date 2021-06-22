@@ -1,0 +1,8 @@
+@import 'styles/commons.scss';
+
+.header-wrap {
+  background: $theme-background;
+  color: $theme-white;
+  font-size: $font-size-lg;
+  padding: $space-4 $space-5;
+}

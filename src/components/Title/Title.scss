@@ -1,0 +1,9 @@
+@import 'styles/commons.scss';
+
+.title {
+  margin-bottom: $space-3;
+  font-size: $font-size-xl;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}

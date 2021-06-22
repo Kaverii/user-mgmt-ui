@@ -1,0 +1,23 @@
+@import 'styles/commons.scss';
+
+.button {
+  background: $theme-background;
+  color: $theme-white;
+  font-size: $font-size-lg;
+  border: 0;
+  padding: $space-3 * 0.75 $space-5;
+  font-size: $font-size-lg;
+  font-weight: bold;
+  text-transform: uppercase;
+  box-shadow: 0 3px 5px 2px #ff698754;
+  border-radius: 3px;
+  width: 100%;
+  cursor: pointer;
+
+  &.outline {
+    background: transparent;
+    border: 2px solid $theme-primary;
+    color: $theme-primary;
+    font-weight: bold;
+  }
+}

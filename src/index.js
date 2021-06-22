@@ -1,12 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import 'styles/styles.scss';
 import reportWebVitals from './reportWebVitals';
+import { Router } from './router/Router';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+require('dotenv').config();
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Router />
+    <ToastContainer 
+      position="bottom-right"
+      autoClose={5000}
+      hideProgressBar={false}
+      newestOnTop
+      rtl={false}
+      pauseOnFocusLoss
+      draggable
+      pauseOnHover
+      closeOnClick={false} 
+      closeButton={true} 
+    />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,0 +1,24 @@
+@import 'styles/commons.scss';
+
+.input-field-wrap {
+  font-size: $font-size-lg;
+  margin: $space-3 0;
+  
+  label {
+    display: block;
+    margin-bottom: $space-2;
+    .asterisks {
+      color: $theme-red;
+    }
+  }
+  input {
+    font-size: $font-size-md;
+    padding: $space-2 $space-3;
+    width: 100%;
+  }
+  .error-msg {
+    font-size: $font-size-sm;
+    color: $theme-red;
+    margin-top: $space-1; 
+  }
+}
